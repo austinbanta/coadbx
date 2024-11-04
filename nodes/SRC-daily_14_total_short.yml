@@ -1,0 +1,54 @@
+fileVersion: 1
+id: 73207018-6971-4233-a9bf-76c9bb32b601
+name: daily_14_total_short
+operation:
+  database: ""
+  dataset: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f786e4a1-baca-4b06-a6bc-c90660d8dc44
+          stepCounter: 73207018-6971-4233-a9bf-76c9bb32b601
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        name: t
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 82b9e768-3f14-4f09-8826-74d20741cc4d
+          stepCounter: 73207018-6971-4233-a9bf-76c9bb32b601
+        config: {}
+        dataType: VARIANT
+        defaultValue: ""
+        description: ""
+        name: v
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+    join:
+      joinCondition: FROM {{ ref('SRC', 'daily_14_total_short') }}
+  name: daily_14_total_short
+  schema: ""
+  sqlType: Source
+  table: daily_14_total_short
+  type: sourceInput
+  version: 1
+type: Node

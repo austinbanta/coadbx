@@ -1,0 +1,139 @@
+fileVersion: 1
+id: 506bd613-96eb-4d20-b64a-4c7355b61742
+name: supplier
+operation:
+  database: ""
+  dataset: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: eee11bb7-e77f-40c1-bc32-6e1843af8bd0
+          stepCounter: 506bd613-96eb-4d20-b64a-4c7355b61742
+        config: {}
+        dataType: LONG
+        defaultValue: ""
+        description: ""
+        name: s_suppkey
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c047f675-ff60-4e25-8776-37b3c4ed0ca9
+          stepCounter: 506bd613-96eb-4d20-b64a-4c7355b61742
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: s_name
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 90c57929-c9f2-4efc-b72f-c832eea89208
+          stepCounter: 506bd613-96eb-4d20-b64a-4c7355b61742
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: s_address
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1f823424-d7c0-44ba-98a1-ebc947d19a2a
+          stepCounter: 506bd613-96eb-4d20-b64a-4c7355b61742
+        config: {}
+        dataType: LONG
+        defaultValue: ""
+        description: ""
+        name: s_nationkey
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 52273e83-3af7-41c4-8686-1db328f38e77
+          stepCounter: 506bd613-96eb-4d20-b64a-4c7355b61742
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: s_phone
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 01618c27-28e4-40f0-9f63-6209a8932c6d
+          stepCounter: 506bd613-96eb-4d20-b64a-4c7355b61742
+        config: {}
+        dataType: DECIMAL
+        defaultValue: ""
+        description: ""
+        name: s_acctbal
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c64d5b0b-5b08-4982-a86d-88ba0a3707ab
+          stepCounter: 506bd613-96eb-4d20-b64a-4c7355b61742
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: s_comment
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+    join:
+      joinCondition: FROM {{ ref('SRC', 'supplier') }}
+  name: supplier
+  schema: ""
+  sqlType: Source
+  table: supplier
+  type: sourceInput
+  version: 1
+type: Node
