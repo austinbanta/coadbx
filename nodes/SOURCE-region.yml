@@ -1,0 +1,69 @@
+steps:
+  region-c1f0d95d-b8ec-4521-ae98-8e5082c97e91:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      description: ""
+      locationName: SOURCE
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 27ed24f7-f6e5-4e32-8141-193487f715d6
+              stepCounter: c1f0d95d-b8ec-4521-ae98-8e5082c97e91
+            config: {}
+            dataType: LONG
+            defaultValue: ""
+            description: ""
+            name: r_regionkey
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
+            transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: fe84e356-c3c8-48b4-b25f-d564b404605f
+              stepCounter: c1f0d95d-b8ec-4521-ae98-8e5082c97e91
+            config: {}
+            dataType: STRING
+            defaultValue: ""
+            description: ""
+            name: r_name
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
+            transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 87f37aa6-4941-44e8-81dd-3b19923f3897
+              stepCounter: c1f0d95d-b8ec-4521-ae98-8e5082c97e91
+            config: {}
+            dataType: STRING
+            defaultValue: ""
+            description: ""
+            name: r_comment
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
+            transform: ""
+        join:
+          joinCondition: FROM {{ ref('SOURCE', 'region') }}
+      name: region
+      schema: ""
+      sqlType: Source
+      table: region
+      type: sourceInput
+    stepCounter: c1f0d95d-b8ec-4521-ae98-8e5082c97e91

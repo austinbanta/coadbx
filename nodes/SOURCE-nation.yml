@@ -1,0 +1,86 @@
+steps:
+  nation-84c1744c-f3e2-473d-9f45-226c34da56da:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      description: ""
+      locationName: SOURCE
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 40ab61fc-7724-4826-a684-8a547f158c22
+              stepCounter: 84c1744c-f3e2-473d-9f45-226c34da56da
+            config: {}
+            dataType: LONG
+            defaultValue: ""
+            description: ""
+            name: n_nationkey
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
+            transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: c5e334d8-36ad-4c60-bc9c-d7ffca34628e
+              stepCounter: 84c1744c-f3e2-473d-9f45-226c34da56da
+            config: {}
+            dataType: STRING
+            defaultValue: ""
+            description: ""
+            name: n_name
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
+            transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 5bf5961e-aef8-49ad-85f3-7e5e34fa7163
+              stepCounter: 84c1744c-f3e2-473d-9f45-226c34da56da
+            config: {}
+            dataType: LONG
+            defaultValue: ""
+            description: ""
+            name: n_regionkey
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
+            transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: f6c2d7c6-0ef5-4a60-b884-34135c44746f
+              stepCounter: 84c1744c-f3e2-473d-9f45-226c34da56da
+            config: {}
+            dataType: STRING
+            defaultValue: ""
+            description: ""
+            name: n_comment
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
+            transform: ""
+        join:
+          joinCondition: FROM {{ ref('SOURCE', 'nation') }}
+      name: nation
+      schema: ""
+      sqlType: Source
+      table: nation
+      type: sourceInput
+    stepCounter: 84c1744c-f3e2-473d-9f45-226c34da56da

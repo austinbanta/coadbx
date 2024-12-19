@@ -1,0 +1,157 @@
+steps:
+  stg_customer-7079e24a-a373-4c1b-a714-1be6ea39b483:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationName: TARGET
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 10fe001f-56d1-4265-8f6c-e5d5a0f43692
+              stepCounter: 7079e24a-a373-4c1b-a714-1be6ea39b483
+            dataType: LONG
+            description: |-
+              - Represents the unique customer identifier within the customer table, sourced from the `customer` table.
+              - Acts as the primary key for the `customer` table, enabling efficient joins with other tables based on customer relationships.
+              - Used extensively in downstream applications, including customer analysis, sales reports, and market segmentation.
+            name: c_custkey
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 972db725-67f6-437e-9e79-61917cd5168d
+                    stepCounter: 3f5f06b5-a7c0-4a35-a1c8-6fc0728a4af3
+                transform: ""
+          - columnReference:
+              columnCounter: 0f266520-1adf-4885-989c-bae1a0982d66
+              stepCounter: 7079e24a-a373-4c1b-a714-1be6ea39b483
+            dataType: STRING
+            description: |-
+              - Captures the name of the customer, originating from the `customer` table.
+              -  Used in reports and dashboards to visualize customer demographics and identify trends in customer behavior.
+              - Facilitates customer segmentation and personalized marketing initiatives.
+            name: c_name
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 302a1fba-06ad-414e-a8cc-6504c17528d5
+                    stepCounter: 3f5f06b5-a7c0-4a35-a1c8-6fc0728a4af3
+                transform: ""
+          - columnReference:
+              columnCounter: 8cbb2d5f-715f-492e-8800-408266a2b620
+              stepCounter: 7079e24a-a373-4c1b-a714-1be6ea39b483
+            dataType: STRING
+            description: |-
+              - Stores the physical address of the customer, directly derived from the `customer` table.
+              - Used for customer location analysis, targeted marketing campaigns based on geographic location, and logistical purposes.
+              -  Can be leveraged to create heatmaps and identify customer concentration areas.
+            name: c_address
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7954e9ac-b33e-4a4f-aedd-54ec6c036279
+                    stepCounter: 3f5f06b5-a7c0-4a35-a1c8-6fc0728a4af3
+                transform: ""
+          - columnReference:
+              columnCounter: 0681bbb8-a16b-4589-94ce-8f42809a4a18
+              stepCounter: 7079e24a-a373-4c1b-a714-1be6ea39b483
+            dataType: LONG
+            description: |-
+              - Represents the nation key associated with the customer, obtained from the `customer` table.
+              -  Allows for associating customers with specific nations, enabling geographical segmentation and analysis.
+              -  Supports international sales analysis and regional marketing strategies.
+            name: c_nationkey
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 25db8941-7c88-4ba3-a98c-7bd9ae0a1691
+                    stepCounter: 3f5f06b5-a7c0-4a35-a1c8-6fc0728a4af3
+                transform: UPPER(`customer`.`c_nationkey`)
+          - columnReference:
+              columnCounter: 56d54c12-b2d5-42ab-9bac-8d750a5c4504
+              stepCounter: 7079e24a-a373-4c1b-a714-1be6ea39b483
+            dataType: STRING
+            description: |-
+              - Stores the phone number of the customer, derived from the `customer` table.
+              - Used for communication purposes, such as customer support, order confirmation, and promotional messages.
+              -  Can be leveraged for customer relationship management (CRM) activities.
+            name: c_phone
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 0de96066-aa96-458a-9368-bab2d1cff6b5
+                    stepCounter: 3f5f06b5-a7c0-4a35-a1c8-6fc0728a4af3
+                transform: ""
+          - columnReference:
+              columnCounter: 6edbd848-b86c-4031-afe5-bb4bec33859d
+              stepCounter: 7079e24a-a373-4c1b-a714-1be6ea39b483
+            dataType: DECIMAL
+            description: |-
+              - Represents the customer's account balance, sourced from the `customer` table.
+              -  Used to track customer spending, manage credit limits, and analyze customer profitability.
+              -  Plays a crucial role in financial reporting and credit risk assessment.
+            name: c_acctbal
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 0eebcaa3-e39e-4e3d-8c9a-28818973871d
+                    stepCounter: 3f5f06b5-a7c0-4a35-a1c8-6fc0728a4af3
+                transform: ""
+          - columnReference:
+              columnCounter: 5c4a7ef6-f0a3-499d-81a3-308dd46d4100
+              stepCounter: 7079e24a-a373-4c1b-a714-1be6ea39b483
+            dataType: STRING
+            description: |-
+              - Captures the customer's market segment, extracted from the `customer` table.
+              -  Used for market segmentation analysis, targeted marketing campaigns, and understanding customer preferences.
+              -  Supports the development of tailored marketing messages and strategies based on customer segments.
+            name: c_mktsegment
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: fb58620c-6f22-4ef5-a380-1ce26f507a0c
+                    stepCounter: 3f5f06b5-a7c0-4a35-a1c8-6fc0728a4af3
+                transform: ""
+          - columnReference:
+              columnCounter: f5cef3a0-0640-4923-bf7c-0c25e6d4e6e1
+              stepCounter: 7079e24a-a373-4c1b-a714-1be6ea39b483
+            dataType: STRING
+            description: |-
+              - Contains free-text comments about the customer, retrieved from the `customer` table.
+              -  Provides additional context about the customer, such as special requirements, historical interactions, or notes from sales representatives.
+              -  Used for customer relationship management, personalized customer service, and data analysis.
+            name: c_comment
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 353f9fa0-aeb6-4309-a951-5127d5fcd077
+                    stepCounter: 3f5f06b5-a7c0-4a35-a1c8-6fc0728a4af3
+                transform: ""
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: SOURCE
+                nodeName: customer
+            join:
+              joinCondition: FROM {{ ref('SOURCE', 'customer') }} `customer`
+            name: stg_customer
+            noLinkRefs: []
+      name: stg_customer
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: 7079e24a-a373-4c1b-a714-1be6ea39b483

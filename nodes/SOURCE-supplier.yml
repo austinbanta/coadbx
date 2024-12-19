@@ -1,0 +1,137 @@
+steps:
+  supplier-863dcdb0-bf8e-49d1-bd27-e6b27821c62e:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      description: ""
+      locationName: SOURCE
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 27d5d666-1f8a-4547-8c29-9aa46d1104ef
+              stepCounter: 863dcdb0-bf8e-49d1-bd27-e6b27821c62e
+            config: {}
+            dataType: LONG
+            defaultValue: ""
+            description: ""
+            name: s_suppkey
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
+            transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: ec9a7321-c10e-46d9-b76a-cf83321f97f5
+              stepCounter: 863dcdb0-bf8e-49d1-bd27-e6b27821c62e
+            config: {}
+            dataType: STRING
+            defaultValue: ""
+            description: ""
+            name: s_name
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
+            transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 5843ead5-f548-40a9-9c23-24f69904c387
+              stepCounter: 863dcdb0-bf8e-49d1-bd27-e6b27821c62e
+            config: {}
+            dataType: STRING
+            defaultValue: ""
+            description: ""
+            name: s_address
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
+            transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 120dc24f-7d23-47f8-b83f-89713031051d
+              stepCounter: 863dcdb0-bf8e-49d1-bd27-e6b27821c62e
+            config: {}
+            dataType: LONG
+            defaultValue: ""
+            description: ""
+            name: s_nationkey
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
+            transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: f55e3276-05be-478d-aa42-3903aa530470
+              stepCounter: 863dcdb0-bf8e-49d1-bd27-e6b27821c62e
+            config: {}
+            dataType: STRING
+            defaultValue: ""
+            description: ""
+            name: s_phone
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
+            transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 2031444f-6703-4dc9-8da4-36d0adfe6bae
+              stepCounter: 863dcdb0-bf8e-49d1-bd27-e6b27821c62e
+            config: {}
+            dataType: DECIMAL
+            defaultValue: ""
+            description: ""
+            name: s_acctbal
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
+            transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: c36f2f3d-86ae-4e68-8933-29b6cb80520a
+              stepCounter: 863dcdb0-bf8e-49d1-bd27-e6b27821c62e
+            config: {}
+            dataType: STRING
+            defaultValue: ""
+            description: ""
+            name: s_comment
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
+            transform: ""
+        join:
+          joinCondition: FROM {{ ref('SOURCE', 'supplier') }}
+      name: supplier
+      schema: ""
+      sqlType: Source
+      table: supplier
+      type: sourceInput
+    stepCounter: 863dcdb0-bf8e-49d1-bd27-e6b27821c62e
