@@ -58,7 +58,7 @@ operation:
           - columnReferences:
               - columnCounter: 3d158ac6-464d-43f6-a250-4b49992d4c89
                 stepCounter: 41a54474-c927-4a1b-a1d9-f4b961b4356d
-            transform: ""
+            transform: "`partsupp`.`ps_availqty`"
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 7ccba41c-b1d0-4313-9ab4-4a702f6406e9

@@ -1,2 +1,3 @@
 defaultStorageMapping: BRONZE
 fileVersion: 3
+platformKind: databricks
