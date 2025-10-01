@@ -3,7 +3,6 @@ id: 7b4d323d-ca65-4a4e-8882-6b197e93f09a
 name: part
 operation:
   database: ""
-  dataset: ""
   deployEnabled: true
   description: ""
   locationName: SRC
@@ -162,12 +161,9 @@ operation:
           - columnReferences: []
             transform: ""
         transform: ""
-    join:
-      joinCondition: FROM {{ ref('SRC', 'part') }}
   name: part
   schema: ""
   sqlType: Source
-  table: part
   type: sourceInput
   version: 1
 type: Node

@@ -3,7 +3,6 @@ id: 2b937489-d314-4d56-8729-6fef3ddc63f2
 name: lineitem
 operation:
   database: ""
-  dataset: ""
   deployEnabled: true
   description: ""
   locationName: SRC
@@ -281,12 +280,9 @@ operation:
           - columnReferences: []
             transform: ""
         transform: ""
-    join:
-      joinCondition: FROM {{ ref('SRC', 'lineitem') }}
   name: lineitem
   schema: ""
   sqlType: Source
-  table: lineitem
   type: sourceInput
   version: 1
 type: Node

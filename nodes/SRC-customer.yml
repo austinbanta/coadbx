@@ -3,7 +3,6 @@ id: 39874b71-d4ad-438c-9018-090043b62dc0
 name: customer
 operation:
   database: ""
-  dataset: ""
   deployEnabled: true
   description: ""
   locationName: SRC
@@ -145,12 +144,9 @@ operation:
           - columnReferences: []
             transform: ""
         transform: ""
-    join:
-      joinCondition: FROM {{ ref('SRC', 'customer') }}
   name: customer
   schema: ""
   sqlType: Source
-  table: customer
   type: sourceInput
   version: 1
 type: Node

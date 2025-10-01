@@ -3,7 +3,6 @@ id: 65377d0d-1f6e-4763-96f4-0e55f875c255
 name: orders
 operation:
   database: ""
-  dataset: ""
   deployEnabled: true
   description: ""
   locationName: SRC
@@ -162,12 +161,9 @@ operation:
           - columnReferences: []
             transform: ""
         transform: ""
-    join:
-      joinCondition: FROM {{ ref('SRC', 'orders') }}
   name: orders
   schema: ""
   sqlType: Source
-  table: orders
   type: sourceInput
   version: 1
 type: Node

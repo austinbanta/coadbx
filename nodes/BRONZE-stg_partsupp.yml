@@ -1,5 +1,5 @@
 fileVersion: 1
-id: 847e0a88-0d9a-4066-9ca4-9cc562429bc9
+id: f5553375-ae8a-461a-9958-5f937e54a2af
 name: stg_partsupp
 operation:
   config:
@@ -19,8 +19,8 @@ operation:
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 8c21e3d2-222d-4bf2-8aa0-0f1f2a7c96d2
-          stepCounter: 847e0a88-0d9a-4066-9ca4-9cc562429bc9
+          columnCounter: ee9f7912-adb9-4f48-a624-af38097da09a
+          stepCounter: f5553375-ae8a-461a-9958-5f937e54a2af
         config: {}
         dataType: LONG
         description: ""
@@ -33,8 +33,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 209f39f9-dd16-4790-b700-2f1066e7acc6
-          stepCounter: 847e0a88-0d9a-4066-9ca4-9cc562429bc9
+          columnCounter: 2aaafece-8412-45ef-b059-3caf3acc8abf
+          stepCounter: f5553375-ae8a-461a-9958-5f937e54a2af
         config: {}
         dataType: LONG
         description: ""
@@ -47,8 +47,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 5ba08d5d-e01a-4406-bf22-81c3d5341a16
-          stepCounter: 847e0a88-0d9a-4066-9ca4-9cc562429bc9
+          columnCounter: f4cc30ee-fc3e-4780-9dc1-afcf151231c1
+          stepCounter: f5553375-ae8a-461a-9958-5f937e54a2af
         config: {}
         dataType: INT
         description: ""
@@ -58,11 +58,11 @@ operation:
           - columnReferences:
               - columnCounter: 3d158ac6-464d-43f6-a250-4b49992d4c89
                 stepCounter: 41a54474-c927-4a1b-a1d9-f4b961b4356d
-            transform: "`partsupp`.`ps_availqty`"
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 7ccba41c-b1d0-4313-9ab4-4a702f6406e9
-          stepCounter: 847e0a88-0d9a-4066-9ca4-9cc562429bc9
+          columnCounter: 8326aa94-dece-425c-a283-4a7734aacf5d
+          stepCounter: f5553375-ae8a-461a-9958-5f937e54a2af
         config: {}
         dataType: DECIMAL
         description: ""
@@ -75,8 +75,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 39af446e-246b-42b7-8983-45a08581923c
-          stepCounter: 847e0a88-0d9a-4066-9ca4-9cc562429bc9
+          columnCounter: 5048c864-7a2c-4545-8cb7-9c2d161a3428
+          stepCounter: f5553375-ae8a-461a-9958-5f937e54a2af
         config: {}
         dataType: STRING
         description: ""
@@ -86,11 +86,12 @@ operation:
           - columnReferences:
               - columnCounter: 28d22157-8def-4e3a-b6cb-cffe3cbb7f38
                 stepCounter: 41a54474-c927-4a1b-a1d9-f4b961b4356d
-            transform: UPPER(`partsupp`.`ps_comment`)
+            transform: ""
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
-      - aliases: {}
+      - aliases:
+          partsupp: 41a54474-c927-4a1b-a1d9-f4b961b4356d
         customSQL:
           customSQL: ""
         dependencies:

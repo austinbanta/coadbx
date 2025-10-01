@@ -3,7 +3,6 @@ id: 41a54474-c927-4a1b-a1d9-f4b961b4356d
 name: partsupp
 operation:
   database: ""
-  dataset: ""
   deployEnabled: true
   description: ""
   locationName: SRC
@@ -94,12 +93,9 @@ operation:
           - columnReferences: []
             transform: ""
         transform: ""
-    join:
-      joinCondition: FROM {{ ref('SRC', 'partsupp') }}
   name: partsupp
   schema: ""
   sqlType: Source
-  table: partsupp
   type: sourceInput
   version: 1
 type: Node

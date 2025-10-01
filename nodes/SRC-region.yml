@@ -3,7 +3,6 @@ id: 69065e6e-b7bc-4f59-bc34-e10dc42e0e47
 name: region
 operation:
   database: ""
-  dataset: ""
   deployEnabled: true
   description: ""
   locationName: SRC
@@ -60,12 +59,9 @@ operation:
           - columnReferences: []
             transform: ""
         transform: ""
-    join:
-      joinCondition: FROM {{ ref('SRC', 'region') }}
   name: region
   schema: ""
   sqlType: Source
-  table: region
   type: sourceInput
   version: 1
 type: Node
