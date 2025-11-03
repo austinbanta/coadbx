@@ -1,0 +1,6 @@
+excludeSelector: ""
+fileVersion: 1
+id: "40"
+includeSelector: "+{ location: BRONZE name: mid_nation_sales }"
+name: mid nation job
+type: Job

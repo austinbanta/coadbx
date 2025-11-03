@@ -1,5 +1,5 @@
 fileVersion: 1
-id: f5553375-ae8a-461a-9958-5f937e54a2af
+id: 5f118889-f2f2-4624-8619-5d6db0ad238a
 name: stg_partsupp
 operation:
   config:
@@ -19,8 +19,8 @@ operation:
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: ee9f7912-adb9-4f48-a624-af38097da09a
-          stepCounter: f5553375-ae8a-461a-9958-5f937e54a2af
+          columnCounter: 999f08f6-e093-44c3-94bb-61a565faa621
+          stepCounter: 5f118889-f2f2-4624-8619-5d6db0ad238a
         config: {}
         dataType: LONG
         description: ""
@@ -33,8 +33,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 2aaafece-8412-45ef-b059-3caf3acc8abf
-          stepCounter: f5553375-ae8a-461a-9958-5f937e54a2af
+          columnCounter: 2d795274-8410-4fa4-8366-5f05a235c87b
+          stepCounter: 5f118889-f2f2-4624-8619-5d6db0ad238a
         config: {}
         dataType: LONG
         description: ""
@@ -47,8 +47,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: f4cc30ee-fc3e-4780-9dc1-afcf151231c1
-          stepCounter: f5553375-ae8a-461a-9958-5f937e54a2af
+          columnCounter: 910c9efb-0e6b-474a-adcb-1aafe0d26bd8
+          stepCounter: 5f118889-f2f2-4624-8619-5d6db0ad238a
         config: {}
         dataType: INT
         description: ""
@@ -61,8 +61,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 8326aa94-dece-425c-a283-4a7734aacf5d
-          stepCounter: f5553375-ae8a-461a-9958-5f937e54a2af
+          columnCounter: 87c55b85-6fd9-42f7-94dc-84a040f39766
+          stepCounter: 5f118889-f2f2-4624-8619-5d6db0ad238a
         config: {}
         dataType: DECIMAL
         description: ""
@@ -75,8 +75,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 5048c864-7a2c-4545-8cb7-9c2d161a3428
-          stepCounter: f5553375-ae8a-461a-9958-5f937e54a2af
+          columnCounter: 5b001096-0fb3-428e-8dbd-6b541b4230b2
+          stepCounter: 5f118889-f2f2-4624-8619-5d6db0ad238a
         config: {}
         dataType: STRING
         description: ""

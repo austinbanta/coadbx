@@ -1,5 +1,5 @@
 fileVersion: 1
-id: 473f7875-f29c-4976-906a-31a5aa692747
+id: ccc6809f-c35e-471e-8ba9-4d9f80b01a7c
 name: stg_region
 operation:
   config:
@@ -19,8 +19,8 @@ operation:
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 636ff730-5adc-4d45-8fc9-9b859ee1b574
-          stepCounter: 473f7875-f29c-4976-906a-31a5aa692747
+          columnCounter: d0cc491d-a302-415c-8122-9f6bb2a003c2
+          stepCounter: ccc6809f-c35e-471e-8ba9-4d9f80b01a7c
         config: {}
         dataType: LONG
         description: ""
@@ -33,8 +33,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 4fdd8c34-8efd-4c50-aba3-12a4b1929998
-          stepCounter: 473f7875-f29c-4976-906a-31a5aa692747
+          columnCounter: 9fbd96be-33de-465e-8155-05a0208ea45a
+          stepCounter: ccc6809f-c35e-471e-8ba9-4d9f80b01a7c
         config: {}
         dataType: STRING
         description: ""
@@ -47,8 +47,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 90179eaa-3e61-41db-9028-9691f199cdac
-          stepCounter: 473f7875-f29c-4976-906a-31a5aa692747
+          columnCounter: 0aaf233e-ed32-4333-9102-7b9587ea0924
+          stepCounter: ccc6809f-c35e-471e-8ba9-4d9f80b01a7c
         config: {}
         dataType: STRING
         description: ""

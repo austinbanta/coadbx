@@ -1,5 +1,5 @@
 fileVersion: 1
-id: 65d3a096-715d-4fdb-8538-1429a88b3161
+id: 5a091c32-0040-42e2-875b-bf82d0e66256
 name: stg_nation
 operation:
   config:
@@ -19,8 +19,8 @@ operation:
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 7ad80c4c-730a-42c5-8097-1079b118d3e3
-          stepCounter: 65d3a096-715d-4fdb-8538-1429a88b3161
+          columnCounter: 8b85d7ef-19f5-49e9-832a-2ec9a3fbdf8b
+          stepCounter: 5a091c32-0040-42e2-875b-bf82d0e66256
         config: {}
         dataType: LONG
         description: ""
@@ -33,8 +33,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: cd30f9ed-e781-482e-a35a-e5abafa54514
-          stepCounter: 65d3a096-715d-4fdb-8538-1429a88b3161
+          columnCounter: ac905cae-dfd6-45d7-bb9f-a61273077c64
+          stepCounter: 5a091c32-0040-42e2-875b-bf82d0e66256
         config: {}
         dataType: STRING
         description: ""
@@ -47,8 +47,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 674b6aed-050c-4e89-949d-4e621384ee53
-          stepCounter: 65d3a096-715d-4fdb-8538-1429a88b3161
+          columnCounter: ed85df8f-5720-4a93-a778-d0d4256a7317
+          stepCounter: 5a091c32-0040-42e2-875b-bf82d0e66256
         config: {}
         dataType: LONG
         description: ""
@@ -61,8 +61,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: a8ed32b0-a862-400c-a174-b7014b149000
-          stepCounter: 65d3a096-715d-4fdb-8538-1429a88b3161
+          columnCounter: b9869c00-7134-4a8c-8ef4-0179aec2612e
+          stepCounter: 5a091c32-0040-42e2-875b-bf82d0e66256
         config: {}
         dataType: STRING
         description: ""
